@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  color: black;
+}
+
+input[type="text"] {
+  margin: 0px;
+  width: 35vw;
+  height: 50px;
+  padding: 0px 10px;
+  font-size: large;
+  border-radius: 8px;
+  align-self: flex-start;
+  margin-bottom: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+input:focus {
+  border: 2px solid rgb(70, 70, 231);
+  outline: none;
+}
+
+ol {
+  position: absolute;
+  z-index: 0;
+  list-style-position: inside;
+}
+
+.abso {
+  margin: 15px;
+  background-color: rgba(0, 255, 13, 0);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+}
+.abso > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 10px;
+}
+.abso img {
+  width: 2vw;
+  margin: 15px;
+  min-width: 35px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  background-color: rgb(250, 250, 250);
+  width: 70vw;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 20px 2px rgba(0, 0, 0, 0.233);
+  min-width: 500px;
+  min-height: 360px;
+}
+
+.formDiv > div {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  overflow: scroll;
+  align-items: center;
+  background-color: rgba(91, 65, 185, 0);
+  margin: 5px;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.formDiv > div::-webkit-scrollbar {
+  display: none;
+}
+
+label {
+  margin: auto auto 2px 5px;
+  color: black;
+  font-weight: 900;
+  font-size: large;
+}
+.formDiv > div:nth-child(2) > div {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.formDiv > div:nth-child(2) > div > h1 {
+  align-self: flex-start;
+  color: rgb(42, 47, 65);
+  margin-bottom: 0;
+  font-weight: 750;
+  font-family: sans-serif;
+}
+
+.formDiv > div:nth-child(2) > div > div.input {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(165, 42, 42, 0);
+}
+
+.formDiv > div:nth-child(2) > div > div.btn {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1=0;
+  align-self: center;
+  background-color: rgba(0, 0, 255, 0);
+  padding: 0px;
+  align-self: stretch;
+}
+
+.formDiv > div:nth-child(2) > div > p {
+  align-self: flex-start;
+  justify-self: flex-start;
+  position: relative;
+  margin-top: 0px;
+  background-color: rgba(0, 255, 255, 0);
+  color: rgb(70, 70, 70);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.formDiv > div:first-child {
+  background-color: rgba(0, 255, 98, 0.295);
+  padding: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.mainImg {
+  height: 100%;
+  opacity: 100%;
+  width: 100%;
+}
+
+p:only-of-type {
+  color: brown;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(233, 231, 220);
+  min-height: 400px;
+}
+.abso p {
+  margin: 0;
+  font-weight: 800;
+}
+.abso p:first-child {
+  font-weight: 500;
+  font-size: 0.8em;
+}
+.abso img.act {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.formDiv > div:nth-child(2) > div > div.btn > div {
+  margin: 0px;
+  background-color: rgb(0, 0, 255);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.formDiv > div:nth-child(2) > div > div.btn > div:first-child {
+  background-color: rgb(21, 38, 94);
+}
+
+.formDiv > div:nth-child(2) > div > div.btn > div:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 200);
+}
+.formDiv > div:nth-child(2) > div > div.btn > div:first-child:hover {
+  background-color: rgb(15, 30, 90);
+}
