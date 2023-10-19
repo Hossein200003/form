@@ -6,9 +6,9 @@ const RouteApp = () => {
   return (
     <>
       <div className="mainDiv">
-    <h1>Hi</h1>
+        <h1>Hi</h1>
         <Routes>
-          <Route path="/x" element={<P1 />} />
+          <Route path="/" element={<P1 />} />
           <Route path="/page2" element={<P2 />} />
           <Route path="/page3" element={<P3 />} />
           <Route path="/page4" element={<P4 />} />
